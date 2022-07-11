@@ -7,3 +7,13 @@ My ace fitting script for GaIn
 ~~Change the radbasename in fit_pot.yace from "ACE1.jl.base" to "ACE.jl.base".~~
 
 ACE1pack will fix this bug and update.
+
+## Requirements
+
+ACE1
+
+ACE1pack
+
+JuLIP
+
+IPFitting
