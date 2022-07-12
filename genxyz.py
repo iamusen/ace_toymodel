@@ -8,4 +8,4 @@ for ind, ib in enumerate(vaspobj):
     del vaspobj[ind].calc.results['stress']
     vaspobj[ind].pbc=True
     vaspobj[ind].info['config_type']=confnam
-    write(".xyz",vaspobj[ind],append=True)
+    write(f"{confnam}.xyz",vaspobj[ind],append=True)
